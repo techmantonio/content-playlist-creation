@@ -22,6 +22,8 @@ namespace ContentPlaylistCreation
         /// </summary>
         private readonly IDictionary<string, PreRoll> preRollLookup = new Dictionary<string, PreRoll>(StringComparer.OrdinalIgnoreCase);
 
+        // Videos
+
         /// <summary>
         /// Creates an instance of <see cref="FileBasedContentDataProvider"/>.
         /// </summary>

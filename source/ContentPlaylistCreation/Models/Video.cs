@@ -12,5 +12,9 @@ namespace ContentPlaylistCreation.Models
         /// </summary>
         [JsonProperty("attributes")]
         public VideoAttributes Attributes { get; set; }
+
+        // VideoType [ Content, PreRoll ]
+
+        // AssoicatedAssetId
     }
 }
